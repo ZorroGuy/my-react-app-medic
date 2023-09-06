@@ -1,0 +1,172 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+
+  background-color: rgb(241, 239, 239);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.FormClass {
+  align-items: center;
+  padding: 10px;
+  border: 1px solid rgb(231, 226, 226);
+  border-left: solid 70px transparent;
+  border-right: solid 70px transparent;
+  filter: drop-shadow(0 10px 10px #413f3f);
+  width: 550px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+}
+
+.Heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border: 1px solid rgb(41, 111, 241); */
+  background-color: rgb(133, 158, 201);
+  color: white;
+  border-left: solid 70px transparent;
+  border-right: solid 70px transparent;
+  /* border-bottom: solid 70px #fff; */
+  filter: drop-shadow(0 10px 10px #413f3f);
+}
+
+.formclass {
+  /* display: grid;
+  grid-template-columns: 280px 230px; */
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  /* border-radius: 10px;
+  border: 1px solid rgb(146, 146, 146); */
+
+  /* background-color: rgb(243, 235, 235); */
+}
+
+.button {
+  background-color: rgb(52, 52, 165) !important;
+  width: 85px !important;
+  margin-top: 10px !important;
+  margin-left: 200px !important;
+}
+
+.loginPage {
+  border: 5px solid rgb(253, 252, 252);
+  background-color: rgb(238, 235, 230);
+  border-radius: 20px;
+  border-left: solid 20px transparent;
+  border-right: solid 70px transparent;
+  /* border-bottom: solid 70px #fff; */
+  filter: drop-shadow(0 0 30px #333);
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 400px;
+  height: 350px;
+  padding: 5px;
+  margin-left: 500px;
+  margin-top: 150px;
+}
+
+.Placeholder {
+  width: 200px;
+  height: 100px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+
+.heading {
+  /* display: flex;
+  justify-content: center; */
+  margin-bottom: 40px;
+  margin-left: 45px;
+}
+
+.button {
+  margin-top: 30px !important;
+  border: 1px solid black;
+  margin-left: 65px !important;
+}
+
+.Pages {
+  border: 1px solid black;
+  border-radius: 12px;
+  background-color: rgb(192, 187, 181);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 500px;
+  height: 450px;
+  padding: 20px;
+  font-size: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 80px;
+}
+
+.NavBar {
+  border: 1px solid rgb(95, 142, 185);
+  background-color: rgb(64, 154, 238);
+  border-left: solid 70px transparent;
+  border-right: solid 70px transparent;
+  /* border-bottom: solid 70px #fff; */
+  filter: drop-shadow(0 10px 10px #413f3f);
+  height: 70px;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.header {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  align-items: center;
+  width: 300px;
+  height: 40px;
+  margin-left: 400px;
+}
+
+.link {
+  width: 200px;
+  display: flex;
+  margin-left: 100px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.linkText {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+}
+
+.Button {
+  width: 100px !important ;
+  height: 40px !important;
+  margin-left: 150px !important;
+  margin-top: 10px !important;
+}
+
+.footer {
+  margin-top: 500px;
+  color: #413f3f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Table {
+  background-color: #c3cbcc;
+}
